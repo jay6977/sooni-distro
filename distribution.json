@@ -12,7 +12,7 @@
       "name": "sooni server",
       "description": "sooni Running Minecraft 1.21.4 (Fabric v0.17.2)",
       "icon": "https://raw.githubusercontent.com/jay6977/sooni-distro/main/icon.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "220.79.201.74",
       "minecraftVersion": "1.21.4",
       "discord": {
@@ -299,16 +299,6 @@
             "size": 146,
             "url": "https://raw.githubusercontent.com/jay6977/sooni-distro/main/servers/sooni-1.21.4/files/servers.dat",
             "path": "servers.dat"
-          }
-        },
-        {
-          "id": "servers.dat_old",
-          "name": "servers.dat_old",
-          "type": "File",
-          "artifact": {
-            "size": 99,
-            "url": "https://raw.githubusercontent.com/jay6977/sooni-distro/main/servers/sooni-1.21.4/files/servers.dat_old",
-            "path": "servers.dat_old"
           }
         },
         {
