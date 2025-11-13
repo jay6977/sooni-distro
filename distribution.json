@@ -1,0 +1,350 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "sooni-1.21.4",
+      "name": "sooni server",
+      "description": "sooni Running Minecraft 1.21.4 (Fabric v0.17.2)",
+      "icon": "https://raw.githubusercontent.com/jay6977/sooni-distro/main/serverIMG.png",
+      "version": "1.0.0",
+      "address": "220.79.201.74",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1915305,
+            "MD5": "72dd698d701202d46303fc913cfcbf23",
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.17.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "07f3150d655702033f2976aa023553e8",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/versions/1.21.4-fabric-0.17.2/1.21.4-fabric-0.17.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504156,
+                "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:21.4.1@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 417831,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/balm-fabric-1.21.4-21.4.1.jar",
+            "MD5": "348af25c46075912871a381a48c5791d"
+          }
+        },
+        {
+          "id": "de.johni0702.minecraft:bobby:5.2.6+mc1.21.4@jar",
+          "name": "Bobby",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 867333,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/bobby-5.2.6+mc1.21.4.jar",
+            "MD5": "b2b5f9dcee366c326dc5643e796cc2dc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:caramelchat:mc1.21.1-forge-1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 346360,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/optionalon/caramelChat-mc1.21.1-forge-1.2.2.jar",
+            "MD5": "41f15cc917b3cf1decf624c717c29e6e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21.4@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1001061,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/continuity-3.0.0+1.21.4.jar",
+            "MD5": "cb5480ac95db653d5376ec1b41797b56"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.21-2.9@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23781,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/cupboard-fabric-1.21-2.9.jar",
+            "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:21.4.5@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 98192,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/defaultoptions-fabric-1.21.4-21.4.5.jar",
+            "MD5": "e0b4098324c1d946864e5d3ade95046c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.3+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2148367,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/fabric-api-0.119.3+1.21.4.jar",
+            "MD5": "179994db46a00373614c47fb669d1dd3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514383,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.0+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 595318,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/optionalon/koreanpatch-fabric-1.9.0+mc1.21.3.jar",
+            "MD5": "f06ab7fa4807353a7b725f4ad5dc86ba"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:13.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050777,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/modmenu-13.0.3.jar",
+            "MD5": "e8884b37fe775f30a0121c4fbdfb32ac"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.2@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11913348,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.2.jar",
+            "MD5": "f16c7adcd044e70ff30f39fd9e4ad524"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.2+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81062,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/reeses-sodium-options-fabric-1.8.2+mc1.21.4.jar",
+            "MD5": "fe867d6df4c5946f45ebdf3c1c560735"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.21.4@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 138865,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/fabricmods/required/WI-Zoom-1.5-MC1.21.4.jar",
+            "MD5": "c27684a574f4371b1b5d52e154612b2d"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5287,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/files/servers.dat_old",
+            "path": "servers.dat_old"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09p1.zip",
+          "name": "BSL_v8.2.09p1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 953414,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/files/shaderpacks/BSL_v8.2.09p1.zip",
+            "MD5": "612496c6a0ae763bc996f860ca6e1f2e",
+            "path": "shaderpacks/BSL_v8.2.09p1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip",
+          "name": "ComplementaryUnbound_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://raw.githubusercontent.com/jay6977/mingcha-distro/main/servers/mingcha-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
